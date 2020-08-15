@@ -1,0 +1,105 @@
+/* seletor {
+    propriedade: valor;
+} */
+
+ /* Comentário  */
+
+ *{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Reem Kufi', sans-serif;
+font-family: 'Suez One', serif;
+    margin: 0;
+}
+p{
+    font-size: 1.6rem;
+}
+.banner{
+    background: url(../img/20191116_134801.jpg);
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    color: white;
+    padding-top: 20rem;
+}
+
+.banner__titulo{
+    font-size: 5rem;
+}
+.banner__subtitulo{
+    font-size: 2.3rem;
+}
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.btn-branco{
+    color: #599b45;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Seção sobre */
+
+.sobre__titulo {
+    font-size: 4rem;
+    color: #599b45;
+}
+
+.sobre-descricao, .sobre-habilidades {
+    font-size: 2.5rem;
+    width: 40%;
+    display:inline-block;
+    
+    
+}
+.container{
+    max-width: 1080px ;
+    margin: 0 auto;  /* Retira as margens padrões do navegador */
+    margin-top: 10rem;
+    line-height: 2;
+}
+.sobre-habilidades{
+    margin-left: 10rem;
+}
+.sobre-habilidades__lista{
+    line-height: 1.5; /*Espaçamento das letras */
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+.btn-roxo{
+    color:#599b45;
+    border: 1px solid #599b45;
+}
+
+/* Seção Footer */
+.footer{
+    text-align:center;
+}
+.redes-sociais__link{
+    display: inline-block;
+    width: 20%;
+    background-color: #599b45;
+    text-align: center;
+    color: white;
+    padding: 4rem 0;
+    margin-right: 20px;
+}
+.redes-sociais__img{
+    margin-bottom: 5 rem;
+}
